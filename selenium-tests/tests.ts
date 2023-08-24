@@ -8,6 +8,11 @@ const service = new chrome.ServiceBuilder(chromedriver.path).build();
 
 const webpageURL = 'https://selenium-califano-vilches.web.app'
 
+// tsc
+// npx mocha tests.js
+
+// falta grabar la pantalla
+
 describe('Web app tests selenium', () => {
     
     let driver : WebDriver;
