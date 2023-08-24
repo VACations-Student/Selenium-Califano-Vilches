@@ -1,0 +1,13 @@
+<app-nav-bar></app-nav-bar>
+<p> Cargue datos: </p>
+
+<div>
+    <input [(ngModel)]="nombre"   placeholder="Nombre"   type="text">
+    <br>
+    <input [(ngModel)]="apellido" placeholder="Apellido" type="text">
+    <br>
+    <input [(ngModel)]="dni"      placeholder="DNI"      type="text">
+    <br>
+    <input [(ngModel)]="cuil"     placeholder="CUIL"     type="text">
+</div>
+<button (click)="print()"> Submit </button>
