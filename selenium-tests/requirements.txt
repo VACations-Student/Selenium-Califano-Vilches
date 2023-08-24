@@ -1,0 +1,21 @@
+Crear una página web que incluya un login, una barra de navegación y un formulario
+de carga de datos. Tanto el login como la carga de datos puede ser "fake" sin 
+necesidad que se compruebe la identidad del usuario ni que realmente se carguen 
+los datos en una base de datos
+
+Luego, se debe confeccionar un script de integración y despliegue continuo
+en GitHub donde se despliegue la aplicación web al entorno de Render.com o
+a Firebase Hosting.  Por último el script debe ejecutar pruebas de funcionamiento
+mediante la plataforma browserstack.com con scripts.
+
+Selenium:      
+    -Prueba de Login     
+    -Prueba de Navegabilidad     
+    -Prueba de Carga de Datos
+
+Se deben realizar de forma automatica capturas de pantalla y grabaciones de la prueba.
+Aclaraciones:    
+    NO PUEDEN EXISTIR DOS WEBS IGUALES. Si o si tienen que ser lo suficientemente 
+    distintas como para que la prueba sea diferente.     
+    Se recomienda realizar las pruebas localmente para agilizar su desarrollo y ajuste.
+    El script Selenium puede programarse en cualquiera de los lenguajes compatibles.
