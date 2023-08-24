@@ -1,0 +1,21 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tests.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^116.0.0",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.11.1"
+  },
+  "devDependencies": {
+    "@types/chromedriver": "^81.0.1",
+    "@types/mocha": "^10.0.1",
+    "@types/selenium-webdriver": "^4.1.16"
+  }
+}
