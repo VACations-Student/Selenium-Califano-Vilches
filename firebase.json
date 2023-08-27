@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist",
+    "public": "dist/selenium-v2.0.0",
     "ignore": [
       "firebase.json",
       "**/.*",
